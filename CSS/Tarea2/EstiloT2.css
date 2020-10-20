@@ -1,0 +1,70 @@
+body {
+	margin: 1px;
+	padding: 110px;
+}
+h1 
+{
+	color: cadetblue;
+}
+p strong
+{
+	color:orangered;
+}
+.destacado
+{
+	color:gold;
+}
+h2
+{
+	color:blue;
+}
+p a
+{
+	color:red
+}
+a em
+{
+	color:dodgerblue
+}
+span.especial
+{
+	color:purple
+}
+caption
+{
+	color:blue
+}
+table, th, td
+{
+  	border: 0.1px solid black;
+	border-collapse: collapse;
+	padding: 7px
+}
+th
+{
+	color:red
+}
+th.especial
+{
+	color:gold
+}
+td
+{
+	color:forestgreen
+}
+td strong
+{
+	color:gold
+}
+div#adicional
+{
+	color:darkolivegreen
+}
+p span#especial
+{
+	color:hotpink
+}
+div#adicional a
+{
+	color:green
+}
