@@ -1,70 +1,31 @@
-body {
-	margin: 1px;
-	padding: 110px;
-}
-h1 
+p 
 {
-	color: cadetblue;
+    width:300px;
 }
-p strong
+p:first-letter
 {
-	color:orangered;
+    font-size:30px;
 }
-.destacado
+p:first-letter::selection
 {
-	color:gold;
+    background-color:deeppink;
+    color:white;
 }
-h2
+
+p:first-line
 {
-	color:blue;
+    background-color: lightgray;
 }
-p a
+p:nth-child(2n+1)
 {
-	color:red
+    background-color:lightblue;
 }
-a em
+p:nth-child(2n)
 {
-	color:dodgerblue
+    background-color:lightgreen;
 }
-span.especial
+p::selection
 {
-	color:purple
-}
-caption
-{
-	color:blue
-}
-table, th, td
-{
-  	border: 0.1px solid black;
-	border-collapse: collapse;
-	padding: 7px
-}
-th
-{
-	color:red
-}
-th.especial
-{
-	color:gold
-}
-td
-{
-	color:forestgreen
-}
-td strong
-{
-	color:gold
-}
-div#adicional
-{
-	color:darkolivegreen
-}
-p span#especial
-{
-	color:hotpink
-}
-div#adicional a
-{
-	color:green
+    background-color:deeppink;
+    color:white;
 }
