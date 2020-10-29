@@ -1,0 +1,30 @@
+h1 
+{
+	color:crimson;
+}
+table, th, td 
+{
+  	border: 1px solid black;
+	border-collapse:collapse;
+}	
+body
+{
+	background-color: cornsilk;
+}
+hr
+{
+	border-color:crimson;
+	
+}
+table tr td.html, table th.html
+{
+	background-color:aliceblue
+}
+table tr td.css, table th.css
+{
+	background-color:cadetblue
+}
+table tr td.tareas, table th.tareas
+{
+	background-color: aquamarine
+}
