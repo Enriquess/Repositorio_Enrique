@@ -1,0 +1,120 @@
+body {
+    background-color: cornsilk;
+}
+* {
+  font-size: 15px;
+  font-family: sans-serif;
+}
+h1 {
+  font-size: 30px;
+
+}
+h1.curriculum {
+  background-color: #FFE14E
+}
+h2 {
+  font-size: 20px;
+  background-color: #FFE87A
+}
+
+/*Cabecera*/
+
+div.cabecera, div.pie {
+  background-color:#111111;
+  padding-bottom: 0;
+  width: 100%;
+  color: white;
+  font-size:3em;
+  text-align:center;
+}
+div.cabecera {
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+}
+
+/*Cabecera*/
+
+/* Menu de interaccion cabecera */
+
+ul.cabecera {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #564a35;
+  display:flex;
+  justify-content: center;
+}
+
+li.cabecera {
+  float: left;
+  border-right: 1px solid #bbb;
+  border-left: 1px solid #bbb
+}
+
+li.cabecera a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  justify-content: center;
+}
+
+li.cabecera a:hover {
+  background-color: #111;
+}
+
+/*fin interaccion cabecera */
+
+/*pie */
+
+div.pie {
+  position: relative;
+  bottom:0;
+  left:0;
+  right:0;
+}
+
+/*pie */
+
+/*Contenido pagina*/
+div.Introduccion {
+    padding-top: 8em;
+    margin: 0 500px 0px 500px;
+}
+div.contenido {
+  padding-top: 8em;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  width: expression(document.body.clientWidth > 701? "700px": "auto");
+}
+h1 div.curriculum {
+  font-size:30px
+}
+div.curriculum{
+background-color: #FFF7D1;
+border-style: solid;
+border-radius:5px;
+margin-bottom: 1em;
+}
+div.Pizza {
+  border-style: dashed;
+  border-radius: 5px
+}
+p.Cancion a:link, p.Cancion a:visited {
+  background-color: #FFE87A;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+p.Cancion a:hover, p.Cancion a:active {
+  background-color: #FFE14E;
